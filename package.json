@@ -1,0 +1,16 @@
+{
+   "name": "commando",
+   "version": "0.0.1",
+   "description": "Node.js CLI tool",
+   "preferGlobal": true,
+   "main": "./lib/quotes.js",
+   "bin": {
+      "qotd": "./bin/index.js"
+   },
+   "dependencies": {
+      "axios": "^0.21.0",
+      "colors": "^1.4.0",
+      "lodash": "^4.17.20",
+      "pad": "^3.2.0"
+   }
+}
